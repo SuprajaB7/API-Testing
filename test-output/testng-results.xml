@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-19T19:38:13 IST" name="Default suite" finished-at="2024-04-19T19:38:19 IST" duration-ms="5910">
+    <groups>
+    </groups>
+    <test started-at="2024-04-19T19:38:13 IST" name="Default test" finished-at="2024-04-19T19:38:19 IST" duration-ms="5910">
+      <class name="restAssured.TestQuotes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restAssured.TestQuotes@537f60bf]" started-at="2024-04-19T19:38:13 IST" name="setUp" finished-at="2024-04-19T19:38:14 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetRandomQuotes()[pri:0, instance:restAssured.TestQuotes@537f60bf]" started-at="2024-04-19T19:38:14 IST" name="testGetRandomQuotes" finished-at="2024-04-19T19:38:16 IST" duration-ms="2723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRandomQuotes -->
+        <test-method signature="testPaginatedQuoteResults()[pri:0, instance:restAssured.TestQuotes@537f60bf]" started-at="2024-04-19T19:38:16 IST" name="testPaginatedQuoteResults" finished-at="2024-04-19T19:38:17 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaginatedQuoteResults -->
+        <test-method signature="testQuotesByAuthor()[pri:0, instance:restAssured.TestQuotes@537f60bf]" started-at="2024-04-19T19:38:17 IST" name="testQuotesByAuthor" finished-at="2024-04-19T19:38:18 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuotesByAuthor -->
+        <test-method signature="testQuotesByTag()[pri:0, instance:restAssured.TestQuotes@537f60bf]" started-at="2024-04-19T19:38:18 IST" name="testQuotesByTag" finished-at="2024-04-19T19:38:18 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuotesByTag -->
+        <test-method signature="testSearchQuotesByKeyword()[pri:0, instance:restAssured.TestQuotes@537f60bf]" started-at="2024-04-19T19:38:18 IST" name="testSearchQuotesByKeyword" finished-at="2024-04-19T19:38:19 IST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchQuotesByKeyword -->
+      </class> <!-- restAssured.TestQuotes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
